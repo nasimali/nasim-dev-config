@@ -23,15 +23,15 @@
   {
     "id": "react",
     "name": "React & React Native",
-    "iconName": "React",
+    "iconName": "FileJson",
     "iconColor": "text-sky-400",
     "level": "Expert"
   },
   {
     "id": "html-css",
     "name": "HTML5 & CSS3",
-    "iconName": "FileCode",
-    "iconColor": "text-red-500",
+    "iconName": "CodeXml",
+    "iconColor": "text-blue-500",
     "level": "Expert"
   },
   {
