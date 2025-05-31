@@ -4,22 +4,22 @@
     "title": "Nasim Ali – Personal Portfolio",
     "category": "Personal Website",
     "description": "My personal portfolio website showcasing my career, skills, and projects. Built using modern front-end tools.",
-    "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "tags": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     "iconName": "UserCircle2",
     "iconColor": "text-indigo-500",
     "repoLink": "https://github.com/nasimali/nasimali.github.io",
-    "imageUrl": "https://placehold.co/600x400/8E44AD/FFFFFF?text=Portfolio+Site"
+    "imageUrl": "https://raw.githubusercontent.com/nasimali/nasim-dev-config/main/data/images/personalsite.jpg"
   },
   {
     "id": "epg-auto",
     "title": "EPG Auto-Generator",
-    "category": "Automation / DevOps Tool",
-    "description": "A Python automation tool that scrapes and merges electronic program guide (EPG) data from multiple IPTV sources into a unified XMLTV format. Runs on a GitHub Actions workflow every 24 hours.",
+    "category": "Automation",
+    "description": "A Python automation tool that consumes and merges electronic program guide (EPG) json data into a unified XMLTV format. Runs on a GitHub Actions workflow every 24 hours.",
     "tags": ["Python", "GitHub Actions", "Automation", "XMLTV", "EPG"],
     "iconName": "ServerCog",
     "iconColor": "text-green-600",
     "repoLink": "https://github.com/nasimali/epg-auto",
-    "imageUrl": "https://placehold.co/600x400/229954/FFFFFF?text=EPG+Auto"
+    "imageUrl": "https://raw.githubusercontent.com/nasimali/nasim-dev-config/main/data/images/epgauto.jpg"
   },
   {
     "id": "owari-game",
@@ -30,6 +30,6 @@
     "iconName": "Gamepad2",
     "iconColor": "text-yellow-500",
     "repoLink": "https://github.com/nasimali/OwariGameBoardApp",
-    "imageUrl": "https://placehold.co/600x400/F1C40F/2C3E50?text=Owari+Game"
+    "imageUrl": "https://raw.githubusercontent.com/nasimali/nasim-dev-config/main/data/images/owari.jpg"
   }
 ]
