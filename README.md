@@ -19,10 +19,8 @@ By seperating configuration from the core app code, this setup:
 ```bash
 /data
 │
-├── about.json         # Bio & About Me section
-├── contact.json       # Contact form labels, social links, messages
-├── education.json     # Academic history & certifications
-├── experience.json    # Work experience timeline
-├── projects.json      # Signature projects & open-source work
-├── skills.json        # Technical skills with icons/levels
-└── textContent.json   # Global strings: headings, nav, hero, footer, etc.
+├── education.json      # Academic history, certifications & highlights
+├── experience.json     # Professional roles, descriptions & skills
+├── projects.json       # Portfolio projects, categories, links & media
+├── skills.json         # Technical skillset with icons and proficiency levels
+├── textContent.json    # All static content: nav, hero, about, contact form, footer, etc.

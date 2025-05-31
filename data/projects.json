@@ -1,0 +1,58 @@
+[
+  {
+    "id": "portfolio-v2",
+    "title": "Nasim Ali - Personal Portfolio v2.0",
+    "category": "Personal Website & Branding",
+    "description": "The latest iteration of my personal portfolio (this very site!). Built from the ground up using React, TypeScript, Next.js for SSR/SSG, Tailwind CSS for styling, and Framer Motion for smooth animations. Deployed on Vercel.",
+    "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel", "UI/UX"],
+    "iconName": "UserCircle2",
+    "iconColor": "text-indigo-500",
+    "liveLink": "https://nasimali.dev",
+    "repoLink": "https://github.com/nasimcodes/portfolio-v2",
+    "imageUrl": "https://placehold.co/600x400/A9CCE3/2C3E50?text=Nasim's+Portfolio&font=roboto"
+  },
+  {
+    "id": "ecom-dashboard",
+    "title": "Advanced E-commerce Analytics Dashboard",
+    "category": "Full-Stack Web Application",
+    "description": "A comprehensive analytics dashboard for an e-commerce platform, providing insights into sales, customer behavior, and inventory management. Features real-time data visualization, custom reporting, and role-based access control. Backend built with Node.js, Express, and PostgreSQL; frontend with React and D3.js.",
+    "tags": ["Node.js", "Express", "PostgreSQL", "React", "TypeScript", "D3.js", "JWT", "REST API"],
+    "iconName": "BarChart3",
+    "iconColor": "text-emerald-500",
+    "repoLink": "https://github.com/nasimcodes/ecom-analytics-dashboard",
+    "imageUrl": "https://placehold.co/600x400/A2D9CE/148F77?text=E-com+Analytics&font=lato"
+  },
+  {
+    "id": "dev-toolkit-api",
+    "title": "DevToolkit API Suite",
+    "category": "Backend & API Development",
+    "description": "A suite of microservices offering utility APIs for developers, including image processing, code snippet management, and data validation. Built with Java, Spring Boot, and deployed using Docker & Kubernetes on AWS. Secured with OAuth 2.0.",
+    "tags": ["Java", "Spring Boot", "Microservices", "Docker", "Kubernetes", "AWS", "OAuth 2.0", "REST API"],
+    "iconName": "Wrench",
+    "iconColor": "text-sky-600",
+    "repoLink": "https://github.com/nasimcodes/devtoolkit-api",
+    "imageUrl": "https://placehold.co/600x400/85C1E9/2471A3?text=DevToolkit+APIs&font=arial"
+  },
+  {
+    "id": "mobile-task-manager",
+    "title": "SyncTask Mobile App",
+    "category": "Mobile Application (Cross-Platform)",
+    "description": "A cross-platform task management application built with React Native and TypeScript. Features offline storage, cloud synchronization via Firebase, push notifications, and a clean, intuitive user interface.",
+    "tags": ["React Native", "TypeScript", "Firebase", "SQLite", "Push Notifications", "Mobile UI/UX"],
+    "iconName": "Smartphone",
+    "iconColor": "text-purple-500",
+    "repoLink": "https://github.com/nasimcodes/synctask-mobile",
+    "imageUrl": "https://placehold.co/600x400/D7BDE2/76448A?text=SyncTask+Mobile&font=montserrat"
+  },
+  {
+    "id": "open-source-contribution",
+    "title": "Contributor to 'Awesome-Logger' Library",
+    "category": "Open Source Contribution",
+    "description": "Contributed significantly to a popular open-source logging library by adding new features for structured logging, improving performance, and writing comprehensive documentation. Gained experience in collaborative open-source workflows.",
+    "tags": ["Open Source", "JavaScript", "Node.js", "Collaboration", "Documentation"],
+    "iconName": "GitMerge",
+    "iconColor": "text-orange-500",
+    "repoLink": "https://github.com/some-org/awesome-logger/pulls?q=is%3Apr+author%3Anasimcodes",
+    "imageUrl": "https://placehold.co/600x400/F5CBA7/AF601A?text=Open+Source&font=courier"
+  }
+]

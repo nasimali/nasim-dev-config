@@ -1,0 +1,85 @@
+{
+  "siteName": "Nasim Ali",
+  "siteTitleFull": "Nasim Ali - Full-Stack Software Engineer | Portfolio",
+  "metaDescription": "Welcome to the personal portfolio of Nasim Ali, a dedicated Full-Stack Software Engineer creating innovative and efficient web solutions.",
+  "navLinks": [
+    { "id": "home", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "education", "label": "Education" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "hero": {
+    "name": "Nasim Ali",
+    "title": "Full-Stack Software Engineer",
+    "subtitle": "Crafting seamless digital experiences with cutting-edge technology and a passion for problem-solving. Based in London, UK.",
+    "ctaViewWork": "Explore My Work",
+    "ctaGetInTouch": "Let's Talk",
+    "scrollDownAlt": "Scroll to learn more about Nasim"
+  },
+  "about": {
+    "heading": "About Nasim",
+    "subheading": "Driven by curiosity and a love for code, I transform complex ideas into elegant, user-friendly applications.",
+    "imageAlt": "Nasim Ali - Professional Portrait",
+    "imageSrc": "https://placehold.co/600x750/8E7CC3/FFFFFF?text=Nasim+A.&font=lora",
+    "greeting": "Hello there! I'm Nasim Ali,",
+    "bioParagraphs": [
+      "a full-stack software engineer with a keen eye for detail and a strong foundation in building scalable and maintainable applications. My journey in tech started with a fascination for how software shapes our world, and it has grown into a career dedicated to contributing to that evolution.",
+      "I specialize in both front-end and back-end development, enjoying the process of bringing a project from an initial concept to a fully functional product. I'm proficient in a range of modern technologies and always eager to learn new ones to stay at the forefront of innovation.",
+      "Beyond coding, I'm passionate about collaborative environments, continuous learning, and finding creative solutions to challenging problems. I believe that the best products are built with a combination of technical skill, clear communication, and a user-centric approach."
+    ],
+    "philosophyTitle": "My Approach & Values"
+  },
+  "skills": {
+    "heading": "Technical Skills",
+    "subheading": "The primary technologies, tools, and methodologies I use to bring projects to life."
+  },
+  "projects": {
+    "heading": "Signature Projects",
+    "subheading": "A curated selection of my work, demonstrating my capabilities and project experience."
+  },
+  "experience": {
+    "heading": "Professional Journey",
+    "subheading": "My career path, highlighting key roles, responsibilities, and accomplishments."
+  },
+  "education": {
+    "heading": "Educational Background",
+    "subheading": "The academic foundations that have supported my growth as a software engineer."
+  },
+  "contact": {
+    "heading": "Get in Touch with Nasim",
+    "subheading": "I'm always open to discussing new projects, collaborations, or opportunities. Let's connect!",
+    "formCardTitle": "Send a Message",
+    "formCardDescription": "Use the form below or reach out via my social channels.",
+    "labels": {
+      "name": "Your Full Name",
+      "email": "Your Email Address",
+      "message": "Your Message",
+      "submit": "Send Your Message",
+      "submitting": "Sending..."
+    },
+    "placeholders": {
+      "name": "e.g., Jane Doe",
+      "email": "e.g., jane.doe@example.com",
+      "message": "Hello Nasim, I'd like to discuss..."
+    },
+    "successMessage": "Thank you, Nasim will get back to you shortly!",
+    "errorMessage": "Apologies! There was an issue sending your message. Please try again or use another contact method.",
+    "socialPrompt": "Connect with Nasim on:",
+    "socialLinks": [
+      { "id": "github", "label": "GitHub", "url": "https://github.com/nasimcodes", "iconName": "Github" },
+      { "id": "linkedin", "label": "LinkedIn", "url": "https://linkedin.com/in/nasimali-dev", "iconName": "Linkedin" },
+      { "id": "email", "label": "Email Nasim", "url": "mailto:nasimali.dev@example.com", "iconName": "Mail" }
+    ]
+  },
+  "footer": {
+    "copyright": "Nasim Ali. All Rights Reserved.",
+    "builtWith": "Crafted with",
+    "heartIconAlt": "love",
+    "tools": "React, TypeScript & Tailwind CSS",
+    "fueledBy": "Powered by",
+    "coffeeIconAlt": "coffee and passion"
+  }
+}

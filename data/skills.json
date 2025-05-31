@@ -1,0 +1,128 @@
+[
+  {
+    "id": "javascript-esnext",
+    "name": "JavaScript (ESNext)",
+    "iconName": "FileJson2",
+    "iconColor": "text-yellow-400",
+    "level": "Expert"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "iconName": "FileBadge2",
+    "iconColor": "text-blue-500",
+    "level": "Expert"
+  },
+  {
+    "id": "react",
+    "name": "React & Next.js",
+    "iconName": "React",
+    "iconColor": "text-sky-400",
+    "level": "Expert"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js & Express",
+    "iconName": "Server",
+    "iconColor": "text-green-500",
+    "level": "Advanced"
+  },
+  {
+    "id": "python",
+    "name": "Python (Django/Flask)",
+    "iconName": "Code",
+    "iconColor": "text-blue-400",
+    "level": "Proficient"
+  },
+  {
+    "id": "java",
+    "name": "Java & Spring Boot",
+    "iconName": "Coffee",
+    "iconColor": "text-orange-600",
+    "level": "Advanced"
+  },
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "iconName": "FileCode",
+    "iconColor": "text-red-500",
+    "level": "Expert"
+  },
+  {
+    "id": "css3-sass",
+    "name": "CSS3 & SASS/SCSS",
+    "iconName": "Palette",
+    "iconColor": "text-pink-500",
+    "level": "Expert"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "iconName": "Wind",
+    "iconColor": "text-teal-400",
+    "level": "Expert"
+  },
+  {
+    "id": "postgresql-mysql",
+    "name": "PostgreSQL & MySQL",
+    "iconName": "Database",
+    "iconColor": "text-indigo-500",
+    "level": "Advanced"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "iconName": "DatabaseZap",
+    "iconColor": "text-green-600",
+    "level": "Proficient"
+  },
+  {
+    "id": "docker",
+    "name": "Docker & Kubernetes",
+    "iconName": "Container",
+    "iconColor": "text-blue-600",
+    "level": "Proficient"
+  },
+  {
+    "id": "aws-gcp",
+    "name": "AWS / GCP",
+    "iconName": "Cloud",
+    "iconColor": "text-amber-500",
+    "level": "Intermediate"
+  },
+  {
+    "id": "git",
+    "name": "Git & GitHub/GitLab",
+    "iconName": "Github",
+    "iconColor": "text-gray-700 dark:text-gray-300",
+    "level": "Expert"
+  },
+  {
+    "id": "rest-graphql",
+    "name": "REST & GraphQL APIs",
+    "iconName": "ServerCog",
+    "iconColor": "text-slate-500",
+    "level": "Advanced"
+  },
+  {
+    "id": "jest-testing-library",
+    "name": "Jest & React Testing Library",
+    "iconName": "TestTube2",
+    "iconColor": "text-purple-500",
+    "level": "Proficient"
+  },
+  {
+    "id": "vite-webpack",
+    "name": "Vite & Webpack",
+    "iconName": "Package",
+    "iconColor": "text-yellow-500",
+    "level": "Advanced"
+  },
+  {
+    "id": "figma-xd",
+    "name": "Figma / Adobe XD",
+    "iconName": "Figma",
+    "iconColor": "text-pink-400",
+    "level": "Intermediate"
+  }
+]

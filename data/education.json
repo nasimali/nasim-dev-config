@@ -1,0 +1,32 @@
+[
+  {
+    "id": "msc-advanced-cs",
+    "degree": "M.Sc. in Advanced Computer Science",
+    "institution": "Imperial College London",
+    "institutionLink": "https://www.imperial.ac.uk/",
+    "duration": "2017 - 2018",
+    "description": "Specialized in Software Engineering and Artificial Intelligence. Thesis on 'Scalable Machine Learning Models for Real-time Data Analysis' received a Distinction. Engaged in advanced modules covering distributed systems, machine learning, and software architecture.",
+    "iconName": "Brain",
+    "highlights": ["Distinction in Thesis", "Advanced Algorithms", "Machine Learning", "Distributed Systems", "Dean's List for Academic Excellence"]
+  },
+  {
+    "id": "bsc-cs-qmul",
+    "degree": "B.Sc. (Hons) in Computer Science",
+    "institution": "Queen Mary University of London",
+    "institutionLink": "https://www.qmul.ac.uk/",
+    "duration": "2014 - 2017",
+    "description": "Graduated with First Class Honours. Comprehensive curriculum covering core computer science principles including data structures, algorithms, software engineering, database systems, and web development. Final year project focused on developing a secure e-voting system.",
+    "iconName": "GraduationCap",
+    "highlights": ["First Class Honours", "Recipient of the 'Tech Innovator' Scholarship", "Final Year Project Commendation", "Data Structures & Algorithms", "Software Engineering Principles"]
+  },
+  {
+    "id": "cert-cloud-architect",
+    "degree": "Certified AWS Solutions Architect - Associate",
+    "institution": "Amazon Web Services",
+    "institutionLink": "https://aws.amazon.com/certification/",
+    "duration": "Issued 2023 (Valid until 2026)",
+    "description": "Demonstrated expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS. Covers core AWS services, security best practices, and architectural principles.",
+    "iconName": "CloudCog",
+    "highlights": ["AWS Services", "Cloud Architecture", "Security Best Practices"]
+  }
+]
