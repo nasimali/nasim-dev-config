@@ -1,0 +1,81 @@
+name: ⚙️ Validate Config Files 🕵️
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**.json'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/**.json'
+
+jobs:
+  validate-and-check:
+    name: 🧐 Validate JSON & Check Content ✅
+    runs-on: ubuntu-latest 🐧
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js (for jsonlint)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 Install jsonlint
+        run: npm install -g jsonlint
+
+      - name: 📄 Validate JSON format
+        run: |
+          echo "Validating JSON files in data/ directory..."
+          find data -name "*.json" -print0 | xargs -0 -n1 jsonlint -q
+          if [ $? -ne 0 ]; then
+            echo "❌ JSON validation failed."
+            exit 1
+          fi
+          echo "👍 All JSON files are valid."
+
+      - name: 🗄️ Check for required files and non-empty content
+        run: |
+          required_files=(
+            "data/education.json"
+            "data/experience.json"
+            "data/projects.json"
+            "data/skills.json"
+            "data/textContent.json"
+          )
+          error_found=0
+
+          for file_path in "${required_files[@]}"; do
+            if [ ! -f "$file_path" ]; then
+              echo "🚨 Error: Required file $file_path not found!"
+              error_found=1
+            else
+              # Check if file is trivially empty (e.g., only "{}" or "[]", which are 2 bytes)
+              # or completely empty (0 bytes). Allow for a bit more for whitespace.
+              if [ $(wc -c < "$file_path") -lt 5 ]; then
+                echo "⚠️ Error: File $file_path appears to be empty or contain minimal content. Please ensure it has valid configuration."
+                error_found=1
+              else
+                echo "✔️ File $file_path exists and is not trivially empty."
+              fi
+            fi
+          done
+
+          if [ "$error_found" -ne 0 ]; then
+            exit 1
+          fi
+          echo "🎉 All required files are present and contain content."
+
+      - name: 🛡️ Scan for secrets
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # If you have a Gitleaks Pro license, uncomment and set the secret:
+          # GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
+          GITLEAKS_CONFIG: ".gitleaks.toml" # Optional: Path to your Gitleaks config file
+        continue-on-error: false # Fail the workflow if secrets are found
