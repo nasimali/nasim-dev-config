@@ -72,7 +72,8 @@
       { "id": "github", "label": "GitHub", "url": "https://github.com/nasimali/", "iconName": "Github" },
       { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/nasim-ali/", "iconName": "Linkedin" },
       { "id": "email", "label": "Email Nasim", "url": "mailto:info@nasim.dev", "iconName": "Mail" }
-    ]
+    ],
+    "hostName": "nasim.dev"
   },
   "footer": {
     "copyright": "Nasim Ali. All Rights Reserved.",
