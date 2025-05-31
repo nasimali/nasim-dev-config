@@ -1,64 +1,80 @@
 [
   {
-    "id": "lead-engineer-techcorp",
-    "role": "Lead Full-Stack Engineer",
-    "company": "TechCorp Solutions Ltd.",
-    "companyLink": "https://example.com/techcorp",
-    "duration": "July 2022 - Present",
+    "id": "engineer-amex",
+    "role": "Engineer",
+    "company": "American Express",
+    "companyLink": "https://www.americanexpress.com/",
+    "duration": "Aug 2022 - Present",
     "descriptionPoints": [
-      "Spearheaded the architecture and development of a new cloud-native SaaS platform, resulting in a 30% increase in customer acquisition within the first year.",
-      "Led a team of 8 engineers, fostering a culture of collaboration, innovation, and continuous improvement through agile methodologies.",
-      "Designed and implemented scalable microservices using Java (Spring Boot) and Node.js, deployed on AWS with Kubernetes.",
-      "Drove front-end strategy, championing the adoption of Next.js and TypeScript for enhanced performance and developer experience.",
-      "Instituted best practices for code quality, testing (Jest, Cypress), and CI/CD pipelines, reducing deployment failures by 40%."
+      "Working as a full-stack engineer on enterprise-scale web applications.",
+      "Building robust backend services with Java and Spring Boot.",
+      "Developing dynamic and responsive UIs using React.",
+      "Utilizing CI/CD pipelines with Jenkins and GitHub Actions to ensure reliable deployments.",
+      "Collaborating with cross-functional teams in Agile environment to deliver high-quality features.",
+      "Containerizing services using Docker for microservices architecture."
+    ],
+    "iconName": "Briefcase",
+    "skills": ["Java", "Spring Boot", "React", "Docker", "Jenkins", "GitHub Actions", "Agile", "CI/CD"]
+  },
+  {
+    "id": "developer-sky",
+    "role": "Developer",
+    "company": "Sky",
+    "companyLink": "https://www.sky.com/",
+    "duration": "Dec 2021 - Aug 2022",
+    "descriptionPoints": [
+      "Contributed as a full-stack developer to internal product teams.",
+      "Maintained and enhanced systems built using React, Java, and Spring Boot.",
+      "Wrote efficient database queries and managed schemas in PostgreSQL.",
+      "Worked with distributed systems using Kafka and containerized workloads with Docker and Kubernetes.",
+      "Took ownership of components across front-end and back-end, delivering end-to-end features.",
+      "Participated in code reviews and collaborated within Agile teams to meet sprint goals."
+    ],
+    "iconName": "Code",
+    "skills": ["Java", "Spring Boot", "React", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "CI/CD", "Agile"]
+  },
+  {
+    "id": "associate-sky",
+    "role": "Associate Software Developer",
+    "company": "Sky",
+    "companyLink": "https://www.sky.com/",
+    "duration": "Jul 2019 - Jan 2022",
+    "descriptionPoints": [
+      "Joined Sky as a graduate software engineer after completing BSc in Computer Science.",
+      "Worked across multiple teams on both frontend and backend services.",
+      "Contributed to system designs and code quality improvements.",
+      "Enhanced skills in production support, automated testing, and DevOps practices.",
+      "Built REST APIs and implemented unit/integration tests for microservices."
     ],
     "iconName": "Rocket",
-    "skills": ["Leadership", "Architecture", "Java", "Spring Boot", "Node.js", "Next.js", "TypeScript", "AWS", "Kubernetes", "Microservices", "Agile"]
+    "skills": ["Java", "Spring Boot", "React", "Docker", "Kubernetes", "Jenkins", "Git", "Agile"]
   },
   {
-    "id": "senior-dev-innovatech",
-    "role": "Senior Software Engineer",
-    "company": "Innovatech Dynamics",
-    "companyLink": "https://example.com/innovatech",
-    "duration": "March 2020 - June 2022",
+    "id": "sales-whsmith",
+    "role": "Sales Assistant",
+    "company": "WHSmith",
+    "companyLink": "https://www.whsmith.co.uk/",
+    "duration": "Sep 2018 - Dec 2018",
     "descriptionPoints": [
-      "Developed and maintained critical features for a high-traffic e-commerce application, focusing on performance optimization and user experience.",
-      "Played a key role in migrating legacy systems to a modern tech stack (React, Node.js, PostgreSQL).",
-      "Mentored junior developers and conducted code reviews to ensure adherence to coding standards.",
-      "Collaborated closely with product managers and designers to translate requirements into technical solutions.",
-      "Implemented robust RESTful APIs and integrated with various third-party services."
+      "Provided excellent customer service in a fast-paced retail environment.",
+      "Handled transactions and stock replenishment efficiently.",
+      "Gained experience in teamwork, communication, and managing customer queries."
     ],
-    "iconName": "Code2",
-    "skills": ["React", "Node.js", "PostgreSQL", "TypeScript", "REST APIs", "Performance Optimization", "Mentorship"]
+    "iconName": "User2",
+    "skills": ["Customer Service", "Teamwork", "Communication", "Retail Operations"]
   },
   {
-    "id": "software-engineer-webwidgets",
-    "role": "Software Engineer",
-    "company": "WebWidgets Inc.",
-    "companyLink": "https://example.com/webwidgets",
-    "duration": "June 2018 - February 2020",
+    "id": "checkout-tesco",
+    "role": "Checkout Assistant",
+    "company": "Tesco",
+    "companyLink": "https://www.tesco.com/",
+    "duration": "Jun 2017 - Oct 2017",
     "descriptionPoints": [
-      "Contributed to the development of responsive and accessible web applications for diverse clients.",
-      "Gained extensive experience with front-end technologies including HTML5, CSS3, JavaScript (ES6+), and React.",
-      "Worked in an agile environment, participating in daily stand-ups, sprint planning, and retrospectives.",
-      "Assisted in database design and backend development using Python (Django).",
-      "Wrote unit and integration tests to ensure software quality and reliability."
+      "Managed checkout operations with attention to accuracy and customer experience.",
+      "Demonstrated reliability, punctuality, and professionalism on shift.",
+      "Learned to multitask effectively and handle busy periods with composure."
     ],
-    "iconName": "Laptop2",
-    "skills": ["JavaScript", "React", "HTML5", "CSS3", "Python", "Django", "Agile", "Testing"]
-  },
-  {
-    "id": "intern-startupz",
-    "role": "Junior Developer Intern",
-    "company": "StartupZ Solutions",
-    "duration": "May 2017 - August 2017",
-    "descriptionPoints": [
-      "Assisted the development team in building and testing new features for a mobile-first web application.",
-      "Gained foundational knowledge in web development practices, version control (Git), and software testing.",
-      "Participated in UI/UX discussions and contributed to improving the overall user experience.",
-      "Learned to work effectively in a fast-paced startup environment."
-    ],
-    "iconName": "GraduationCap",
-    "skills": ["JavaScript Basics", "HTML", "CSS", "Git", "Team Collaboration"]
+    "iconName": "User2",
+    "skills": ["Reliability", "Customer Interaction", "Time Management", "Retail Experience"]
   }
 ]

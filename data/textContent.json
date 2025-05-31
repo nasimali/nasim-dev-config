@@ -1,7 +1,7 @@
 {
   "siteName": "Nasim Ali",
   "siteTitleFull": "Nasim Ali - Full-Stack Software Engineer | Portfolio",
-  "metaDescription": "Welcome to the personal portfolio of Nasim Ali, a dedicated Full-Stack Software Engineer creating innovative and efficient web solutions.",
+  "metaDescription": "Welcome to the personal portfolio of Nasim Ali, a dedicated Full-Stack Software Engineer creating innovative and efficient solutions.",
   "navLinks": [
     { "id": "home", "label": "Home" },
     { "id": "about", "label": "About" },
@@ -14,7 +14,7 @@
   "hero": {
     "name": "Nasim Ali",
     "title": "Full-Stack Software Engineer",
-    "subtitle": "Crafting seamless digital experiences with cutting-edge technology and a passion for problem-solving. Based in London, UK.",
+    "subtitle": "Crafting seamless digital experiences with cutting-edge technology and a passion for problem-solving. Based in UK.",
     "ctaViewWork": "Explore My Work",
     "ctaGetInTouch": "Let's Talk",
     "scrollDownAlt": "Scroll to learn more about Nasim"
@@ -23,12 +23,12 @@
     "heading": "About Nasim",
     "subheading": "Driven by curiosity and a love for code, I transform complex ideas into elegant, user-friendly applications.",
     "imageAlt": "Nasim Ali - Professional Portrait",
-    "imageSrc": "https://placehold.co/600x750/8E7CC3/FFFFFF?text=Nasim+A.&font=lora",
+    "imageSrc": "https://raw.githubusercontent.com/nasimali/nasim-dev-config/main/data/images/aboutme.png",
     "greeting": "Hello there! I'm Nasim Ali,",
     "bioParagraphs": [
-      "a full-stack software engineer with a keen eye for detail and a strong foundation in building scalable and maintainable applications. My journey in tech started with a fascination for how software shapes our world, and it has grown into a career dedicated to contributing to that evolution.",
-      "I specialize in both front-end and back-end development, enjoying the process of bringing a project from an initial concept to a fully functional product. I'm proficient in a range of modern technologies and always eager to learn new ones to stay at the forefront of innovation.",
-      "Beyond coding, I'm passionate about collaborative environments, continuous learning, and finding creative solutions to challenging problems. I believe that the best products are built with a combination of technical skill, clear communication, and a user-centric approach."
+      "a full-stack software engineer with a passion for solving real-world problems through clean, scalable code. I began my journey in tech at just 16, earning a Computer Science degree from King’s College London and diving straight into the software industry.",
+      "I’ve since built impactful systems at Sky and American Express, contributing across the stack using technologies like Java, Spring Boot, React, and Docker. From cloud infrastructure to UI/UX, I enjoy shaping robust solutions from backend logic to front-end polish.",
+      "Outside of work, I love experimenting with automation tools and side projects—like my EPG generator and portfolio site—to sharpen my skills and explore new tech. I'm driven by curiosity, collaboration, and a strong belief that thoughtful engineering can elevate any product."
     ],
     "philosophyTitle": "My Approach & Values"
   },
