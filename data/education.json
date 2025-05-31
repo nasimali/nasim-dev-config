@@ -35,14 +35,30 @@
     "id": "cert-js-freecodecamp",
     "degree": "JavaScript Algorithms and Data Structures Certification",
     "institution": "freeCodeCamp",
-    "institutionLink": "https://www.freecodecamp.org/certification",
-    "duration": "Issued Mar 2023",
+    "institutionLink": "https://freecodecamp.org/certification/lazysamurai/javascript-algorithms-and-data-structures",
+    "duration": "Issued 2023",
     "description": "Mastered modern JavaScript (ES6+), data structures, and algorithms through extensive coding exercises and problem-solving tasks.",
     "iconName": "FileCode",
     "highlights": [
       "Over 300 coding challenges completed",
       "Focus on Algorithms and Problem Solving",
       "Practical ES6+ JavaScript experience"
+    ]
+  },
+  {
+    "id": "cert-fullstack-codecademy",
+    "degree": "Full-Stack Engineer Professional Certification",
+    "institution": "Codecademy",
+    "institutionLink": "https://www.codecademy.com/profiles/lazysamurai9712/certificates/ffd0f42cce1a44e9a0108b365047a0a6",
+    "duration": "Issued 2023",
+    "description": "Comprehensive certification program covering both front-end and back-end development. Included hands-on projects using HTML, CSS, JavaScript, React, Node.js, Express, SQL, and deployment strategies.",
+    "iconName": "LaptopCode",
+    "highlights": [
+      "Front-End: HTML, CSS, JavaScript, React",
+      "Back-End: Node.js, Express, PostGreSQL",
+      "Real-world capstone projects",
+      "Version control with Git & GitHub",
+      "Full-stack deployment practices"
     ]
   }
 ]
