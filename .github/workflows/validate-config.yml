@@ -4,13 +4,10 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'data/**.json'
+
   pull_request:
     branches:
       - main
-    paths:
-      - 'data/**.json'
 
 jobs:
   validate-and-check:
