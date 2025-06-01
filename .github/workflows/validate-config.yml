@@ -1,10 +1,55 @@
-name: Test Runner
+name: 🧪 Validate Config
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
-  test:
+  validate-config:
+    name: 🔍 Validate Config Files & Scan for Secrets
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "✅ Runner is working!"
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js for tooling
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📦 Install JSON tools
+        run: |
+          npm install -g jsonlint jsonlint-cli prettier
+
+      - name: ✅ Validate JSON format
+        run: |
+          echo "Validating JSON files..."
+          find . -type f -name "*.json" -print0 | xargs -0 -n1 jsonlint -q
+          echo "✔️ All JSON files passed format validation."
+
+      - name: 🎯 Lint JSON style with Prettier
+        run: |
+          echo "Linting JSON files..."
+          prettier --check "**/*.json"
+
+      - name: 🛡️ Scan for secrets
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: false
+
+      - name: 🔐 Check for plaintext secrets in JSON (naive scan)
+        run: |
+          echo "Scanning JSON files for potential secrets..."
+          suspicious=$(grep -rIn --include="*.json" -E '["'\''](api|token|secret|key|password)["'\'']\s*:\s*["'\''][a-zA-Z0-9]{16,}["'\'']' . || true)
+          if [[ -n "$suspicious" ]]; then
+            echo "🚨 Potential secrets detected in JSON:"
+            echo "$suspicious"
+            exit 1
+          fi
+          echo "✅ No hardcoded secrets found in JSON."
+
+      - name: 🎉 Done
+        run: echo "All config checks passed successfully."
