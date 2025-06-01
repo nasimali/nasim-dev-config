@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'data/**.json'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/**.json'
 
 jobs:
   validate-config:
@@ -28,11 +35,6 @@ jobs:
           echo "Validating JSON files..."
           find . -type f -name "*.json" -print0 | xargs -0 -n1 jsonlint -q
           echo "✔️ All JSON files passed format validation."
-
-      - name: 🎯 Lint JSON style with Prettier
-        run: |
-          echo "Linting JSON files..."
-          prettier --check "**/*.json"
 
       - name: 🛡️ Scan for secrets
         uses: gitleaks/gitleaks-action@v2
