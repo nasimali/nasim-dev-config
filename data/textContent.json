@@ -69,9 +69,24 @@
     "errorMessage": "Apologies! There was an issue sending your message. Please try again or use another contact method.",
     "socialPrompt": "Connect with Nasim on:",
     "socialLinks": [
-      { "id": "github", "label": "GitHub", "url": "https://github.com/nasimali/", "iconName": "Github" },
-      { "id": "linkedin", "label": "LinkedIn", "url": "https://www.linkedin.com/in/nasim-ali/", "iconName": "Linkedin" },
-      { "id": "email", "label": "Email Nasim", "url": "mailto:info@nasim.dev", "iconName": "Mail" }
+      {
+        "id": "github",
+        "label": "GitHub",
+        "url": "https://github.com/nasimali/",
+        "iconName": "Github"
+      },
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nasim-ali/",
+        "iconName": "Linkedin"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "url": "mailto:info@nasim.dev",
+        "iconName": "Mail"
+      }
     ],
     "hostName": "nasim.dev"
   },
