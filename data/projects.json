@@ -22,6 +22,16 @@
     "imageUrl": "https://raw.githubusercontent.com/nasimali/nasim-dev-config/main/data/images/epgauto.jpg"
   },
   {
+    "id": "london-prayer-times-unified-auto",
+    "title": "London Prayer Times (Unified) — Auto 7-Day Feed",
+    "category": "Automation",
+    "description": "A Python automation tool that generates a normalized 7-day London prayer timetable JSON feed from the London Unified Prayer Times API and keeps it updated on a schedule via GitHub Actions.",
+    "tags": ["Python", "GitHub Actions", "Automation", "JSON", "API"],
+    "iconName": "Clock3",
+    "iconColor": "text-emerald-600",
+    "repoLink": "https://github.com/nasimali/london-prayer-times-unified-auto"
+  },
+  {
     "id": "owari-game",
     "title": "Owari Board Game Application",
     "category": "University Software Engineering Project",
