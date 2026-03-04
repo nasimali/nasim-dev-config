@@ -14,7 +14,16 @@
       "Containerizing services using Docker for microservices architecture."
     ],
     "iconName": "Briefcase",
-    "skills": ["Java", "Spring Boot", "React", "Docker", "Jenkins", "GitHub Actions", "Agile", "CI/CD"]
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Docker",
+      "Jenkins",
+      "GitHub Actions",
+      "Agile",
+      "CI/CD"
+    ]
   },
   {
     "id": "developer-sky",
@@ -31,7 +40,17 @@
       "Participated in code reviews and collaborated within Agile teams to meet sprint goals."
     ],
     "iconName": "Code",
-    "skills": ["Java", "Spring Boot", "React", "PostgreSQL", "Kafka", "Docker", "Kubernetes", "CI/CD", "Agile"]
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Agile"
+    ]
   },
   {
     "id": "associate-sky",
@@ -47,7 +66,16 @@
       "Built REST APIs and implemented unit/integration tests for microservices."
     ],
     "iconName": "Rocket",
-    "skills": ["Java", "Spring Boot", "React", "Docker", "Kubernetes", "Jenkins", "Git", "Agile"]
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Git",
+      "Agile"
+    ]
   },
   {
     "id": "sales-whsmith",
@@ -60,8 +88,13 @@
       "Handled transactions and stock replenishment efficiently.",
       "Gained experience in teamwork, communication, and managing customer queries."
     ],
-    "iconName": "User2",
-    "skills": ["Customer Service", "Teamwork", "Communication", "Retail Operations"]
+    "iconName": "PencilRuler",
+    "skills": [
+      "Customer Service",
+      "Teamwork",
+      "Communication",
+      "Retail Operations"
+    ]
   },
   {
     "id": "checkout-tesco",
@@ -74,7 +107,12 @@
       "Demonstrated reliability, punctuality, and professionalism on shift.",
       "Learned to multitask effectively and handle busy periods with composure."
     ],
-    "iconName": "User2",
-    "skills": ["Reliability", "Customer Interaction", "Time Management", "Retail Experience"]
+    "iconName": "Store",
+    "skills": [
+      "Reliability",
+      "Customer Interaction",
+      "Time Management",
+      "Retail Experience"
+    ]
   }
 ]
