@@ -1,7 +1,7 @@
 {
   "siteName": "Nasim Ali",
-  "siteTitleFull": "Nasim Ali - Full-Stack Software Engineer | Portfolio",
-  "metaDescription": "Welcome to the personal portfolio of Nasim Ali, a dedicated Full-Stack Software Engineer creating innovative and efficient solutions.",
+  "siteTitleFull": "Nasim Ali - Frontend Software Engineer | Portfolio",
+  "metaDescription": "Welcome to the personal portfolio of Nasim Ali, a dedicated Frontend Software Engineer creating innovative and efficient solutions.",
   "navLinks": [
     { "id": "home", "label": "Home" },
     { "id": "about", "label": "About" },
@@ -13,7 +13,7 @@
   ],
   "hero": {
     "name": "Nasim Ali",
-    "title": "Full-Stack Software Engineer",
+    "title": "Frontend Software Engineer",
     "subtitle": "Crafting seamless digital experiences with cutting-edge technology and a passion for problem-solving. Based in UK.",
     "ctaViewWork": "Explore My Work",
     "ctaGetInTouch": "Let's Talk",
@@ -26,7 +26,7 @@
     "imageSrc": "https://raw.githubusercontent.com/nasimali/nasim-dev-config/main/data/images/aboutme.jpg",
     "greeting": "Hello there! I'm Nasim Ali,",
     "bioParagraphs": [
-      "a full-stack software engineer with a passion for solving real-world problems through clean, scalable code. I began my journey in tech at just 16, earning a Computer Science degree from King’s College London and diving straight into the software industry.",
+      "a frontend software engineer with a passion for solving real-world problems through clean, scalable code. I began my journey in tech at just 16, earning a Computer Science degree from King’s College London and diving straight into the software industry.",
       "I’ve since built impactful systems at Sky and American Express, contributing across the stack using technologies like Java, Spring Boot, React, and Docker. From cloud infrastructure to UI/UX, I enjoy shaping robust solutions from backend logic to front-end polish.",
       "Outside of work, I love experimenting with automation tools and side projects—like my EPG generator and portfolio site—to sharpen my skills and explore new tech. I'm driven by curiosity, collaboration, and a strong belief that thoughtful engineering can elevate any product."
     ],
